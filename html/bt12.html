@@ -7,36 +7,51 @@
 <body align="center">
     <h2>THÔNG TIN CÁ NHÂN</h2>
 
-    <form action="">
-        <table border="1" bgcolor="cyan">
+    <form action="" align="left" method="GET">
+        <table align="center" border="1" bgcolor="cyan" width="560px">
             <tr>
-                <td>Họ tên:</td>
-                <td><input type="text" name="name" placeholder="Nhập họ tên ở đây!"></td>
+                <td><label for="name">Họ tên:</label></td>
+                <td><input type="text" name="name" id="name" placeholder="Nhập họ tên ở đây!"></td>
             </tr>
             <tr>
-                <td>Giới tính</td>
-                <td><button></button></td>
+                <td><label for="sex">Giới tính</label></td>
+                <td>
+                    <input type="radio" name="sex" id="sex" value="male">Nam
+                    <input type="radio" name="sex" id="sex" value="female">Nữ
+                </td>
             </tr>
             <tr>
-                <td>Ngày sinh</td>
-                <td></td>
+                <td><label for="bdate">Ngày sinh</label></td>
+                <td><input type="date" id="bdate"></td>
             </tr>
             <tr>
-                <td>Điều bạn quan tâm</td>
-                <td></td>
+                <td><label for="interest">Điều bạn quan tâm</label></td>
+                <td>
+                    <input type="checkbox" name="interest" id="interest">Kinh tế
+                    <input type="checkbox" name="interest" id="interest">Xã hội
+                    <input type="checkbox" name="interest" id="interest">Giải trí
+                </td>
             </tr>
             <tr>
-                <td>Địa chỉ:</td>
-                <td><textarea rows="5" cols="50"></textarea></td>
+                <td><label for="address">Địa chỉ:</label></td>
+                <td><textarea rows="5" cols="50" id="address"></textarea></td>
             </tr>
             <tr>
-                <td>Học vấn:</td>
-                <td></td>
+                <td><label for="education">Học vấn:</label></td>
+                <td>
+                    <select name="education" id="education">
+                        <option value=""></option>
+                        <option value="college">Cao đẳng</option>
+                        <option value="secondary">Trung cấp</option>
+                        <option value="highschool">Trung học</option>
+                        <option value="elemetary">Tiểu học</option>
+                    </select>
+                </td>
             </tr>
             <tr align="center">
                 <td colspan="2">
-                    <button>Gửi thông tin</button>
-                    <button>Nhập lại</button>
+                    <button type="submit">Gửi thông tin</button>
+                    <button type="reset">Nhập lại</button>
                 </td>
             </tr>
         </table>
