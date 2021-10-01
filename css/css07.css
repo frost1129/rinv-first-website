@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0 15%;
+}
+
+li, a, p{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+#logo {
+    color:blue;
+    font-size: 3em;
+    font-weight: 700;
+}
+
+nav {
+    background-color: aqua;
+    margin: 10px 0;
+}
+
+nav li{
+    display: inline-block;
+    padding: 10px 15px;
+    color:darkcyan;
+}
+
+nav li:hover{
+    color: darkblue;
+}
+
+hr {
+    border-top: 3px solid aqua;
+    border-bottom: none;
+}
+
+img {
+    width: 30vh;  
+}

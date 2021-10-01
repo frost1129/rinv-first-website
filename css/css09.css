@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#navlink li a{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+
+.header {
+    background-image: url(../images/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 7rem;
+    line-height: 7rem;
+    text-align: center;
+}
+
+h1 {
+    color: whitesmoke;
+}
+
+.headlink {
+    background-image: linear-gradient(to bottom right, #855988, #2B2F77);
+    margin: .5em 0;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.headlink ul li {
+    display: inline-block;
+    line-height: 2em;
+    padding: 0 1em; 
+    font-weight: bold;    
+}
+
+.headlink ul li:hover {
+    background-color: #141852;
+}
+
+.body-container {
+    display: flex;
+    justify-content: space-between;
+    height: 70vh;
+}
+
+.left-content {
+    background-color: #6B4984;
+    flex-basis: 12%;
+    padding: 10px;
+}
+
+#menulink li {
+    list-style-position: inside;
+    color: white;
+}
+#menulink li a {
+    text-decoration: none;
+    color: white;
+}
+
+.mid-content {
+    background-color: rgba(156, 68, 207, 0.452);
+    flex-basis: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px;
+    border: 2px solid #8A64EB;
+}
+
+.content {
+    color: whitesmoke;
+    background-color: #2B2F77;
+    flex-basis: 48%;
+    height: 48%;
+    padding: 10px;
+    line-height: 20px;
+    overflow: hidden;
+}
+
+.box3 {
+    overflow: scroll;
+}
+
+.right-content {
+    background-color: #141852;
+    flex-basis: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 10px;
+    gap: 10px;
+}
+
+.advert {
+    background-color: #ab90eecc;
+    border-radius: 10%;
+    height: 25vh;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+footer {
+    background-image: linear-gradient(to bottom right, #855988, #2B2F77, #070B34);
+    text-align: center;
+    clear: both;
+    height: 3em;
+    line-height: 3em;
+    margin: .5em 0;
+    color: white;
+    font-weight: bold;
+}

@@ -1,0 +1,33 @@
+* {
+    margin: none;
+    padding: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+p {
+    padding: 5px;
+    border: 3px solid #000000;
+}
+
+.outer-box{
+    border: 3px solid #000000;
+}
+
+.grey-box {
+    border: 3px solid #000000;
+    background-color: rgb(161, 161, 161);
+}
+
+.red-dash {
+    border: 3px dotted red;
+}
+
+.blue-dash {
+    border: 3px dashed blue;
+}
